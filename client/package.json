@@ -1,0 +1,23 @@
+{
+  "name": "nyt-react-search",
+  "version": "1.15.2",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "semantic-ui": "^2.3.1"
+  },
+  "description": "New York Times article search with MongoDB",
+  "main": "index.js",
+  "license": "MIT"
+}

@@ -1,5 +1,3 @@
-# nyt-react-search
-scrape of the New York Times buy subject and date
 ## NYT-React-Search
 This app scrapes the New York Times website for news stories. User can choose a search topic and a range of publication dates. User can also save articles of interest to read later. This app was developed using React.
 
