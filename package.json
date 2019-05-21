@@ -3,7 +3,7 @@
   "version": "1.15.2",
   "description": "New York Times web scrape with mongo.",
   "main": "server.js",
-  "engines":{
+  "engines": {
     "node": "12.1.0"
   },
   "scripts": {
@@ -26,6 +26,7 @@
     "express": "^4.16.4",
     "mongodb": "^3.2.5",
     "mongoose": "^5.4.10",
+    "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^3.0.1",
