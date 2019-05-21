@@ -3,6 +3,9 @@
   "version": "1.15.2",
   "private": true,
   "proxy": "http://localhost:3001/",
+  "engines":{
+    "node": "12.1.0"
+  },
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
@@ -14,9 +17,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "semantic-ui": "^2.3.1"
-  },
+  "devDependencies": {},
   "description": "New York Times article search with MongoDB",
   "main": "index.js",
   "license": "MIT"

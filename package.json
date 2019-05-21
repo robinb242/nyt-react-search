@@ -3,6 +3,9 @@
   "version": "1.15.2",
   "description": "New York Times web scrape with mongo.",
   "main": "server.js",
+  "engines":{
+    "node": "12.1.0"
+  },
   "scripts": {
     "server": "node server.js",
     "client": "node scripts/start-client.js",
@@ -21,11 +24,12 @@
     "bluebird": "^3.5.3",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "mongodb": "^3.2.5",
     "mongoose": "^5.4.10",
+    "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",
-    "semantic-ui": "^2.4.2",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.79.1"
+    "react-scripts": "^3.0.1",
+    "serve": "^11.0.0"
   },
   "repository": "git@github.com:robinb242/nyt-react-search.git"
 }
