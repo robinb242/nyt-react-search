@@ -30,7 +30,8 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^3.0.1",
-    "serve": "^11.0.0"
+    "serve": "^11.0.0",
+    "typescript": "^3.4.5"
   },
   "repository": "git@github.com:robinb242/nyt-react-search.git"
 }
