@@ -3,6 +3,7 @@ import Saved from "./Saved";
 import Search from "./Search";
 import Results from "./Results";
 import API from "../utils/api";
+import "./Main.css";
 
 class Main extends Component {
 
@@ -108,8 +109,11 @@ class Main extends Component {
         <div className="container">
           {/* Jumbotron */}
           <div className="jumbotron">
-            <h1 className="text-center"><strong>New York Times Article Search</strong></h1>
-            <h2 className="text-center">Search for and save articles of interest.</h2>
+            <img id="newspaperImage" src={require('./assets/newspaperImageCropped.jpg')} alt="Newspaper"/>
+            <div id="title1">
+            <h1 id="title" className="text-center"><strong>New York Times Article Search</strong></h1>
+            <h2 id="subTitle" className="text-center">Search for and save articles of interest.</h2>
+            </div>
           </div>
           {/* Search Form and Results Section */}
           <Search
