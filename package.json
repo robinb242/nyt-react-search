@@ -1,37 +1,36 @@
 {
-  "name": "nyt-react-search",
-  "version": "1.15.2",
-  "description": "New York Times web scrape with mongo.",
-  "main": "server.js",
-  "engines": {
-    "node": "12.1.0"
-  },
+  "name": "reactBase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:robinb242/reactBase.git",
+  "author": "robinb242 <robin.bertuccelli@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "server": "node server.js",
     "client": "node scripts/start-client.js",
     "start": "concurrently \"nodemon server.js\" \"npm run client\"",
     "build": "node scripts/build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "robinb242 <robin.bertuccelli@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "concurrently": "^3.6.1",
-    "nodemon": "^1.18.10"
+    "seed": "node scripts/seedDB.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installDeps": "yarn && cd client && yarn"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "bluebird": "^3.5.3",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "mongodb": "^3.2.5",
-    "mongoose": "^5.4.10",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^3.0.1",
-    "serve": "^11.0.0",
-    "typescript": "^3.4.5"
+    "axios": "^0.19.0",
+    "bluebird": "^3.5.5",
+    "body-parser": "^1.19.0",
+    "create-react-app": "^3.0.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.6.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "serve": "^11.1.0",
+    "typescript": "^3.6.2"
   },
-  "repository": "git@github.com:robinb242/nyt-react-search.git"
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  }
 }

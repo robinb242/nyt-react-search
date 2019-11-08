@@ -109,14 +109,14 @@ class Main extends Component {
         <div className="container">
           {/* Jumbotron */}
           <div className="jumbotron">
-            <img id="newspaperImage" src={require('./assets/newspaperImageCropped.jpg')} alt="Newspaper"/>
-            <div id="title1">
-            <h1 id="title" className="text-center"><strong>New York Times Article Search</strong></h1>
-            <h2 id="subTitle" className="text-center">Search for and save articles of interest.</h2>
+            <img id="newspaperImage" alt="Newspaper" src={require('../assets/images/newspaperImageCropped.jpg')} />
+            <div id= "title1">
+              <h1 id="title" className="text-center"><strong>New York Times Article Search</strong></h1>
+              <h2 id="subTitle" className="text-center">Search for and save articles of interest.</h2>
             </div>
           </div>
           {/* Search Form and Results Section */}
-          <Search
+          <Search id="Search"
             handleTopicChange={this.handleTopicChange}
             handleStartYearChange={this.handleStartYearChange}
             handleEndYearChange={this.handleEndYearChange}

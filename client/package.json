@@ -1,15 +1,24 @@
 {
-  "name": "nyt-react-search",
-  "version": "1.15.2",
+  "name": "client",
+  "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
-  "engines":{
-    "node": "12.1.0"
-  },
+  "main": "index.js",
   "dependencies": {
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
-    "react-scripts": "1.0.14"
+    "@babel/core": "^7.4.5",
+    "axios": "^0.19.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "lodash": "^4.17.11",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.2",
+    "typescript": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,8 +26,19 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {},
-  "description": "New York Times article search with MongoDB",
-  "main": "index.js",
-  "license": "MIT"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 const express = require("express");
 const path = require("path");
+const app = express();
 const mongoose = require("mongoose");
 const bluebird = require("bluebird");
-const bodyParser = require("body-parser");
 
 //Set up a default port
 const PORT = process.env.PORT || 3001;
@@ -18,7 +18,6 @@ if (process.env.NODE_ENV === "production") {
 else {
   app.use(express.static(__dirname + "/client/public"));
 }
-
 
 // Enable CORS https://enable-cors.org/server_expressjs.html
 app.use((req, res, next) => {
@@ -43,8 +42,9 @@ router.get("/*", function(req, res) {
 
 app.use(router);
 
+ 
 // Connect mongoose to our database
-const db = process.env.MONGODB_URI || "mongodb://localhost/nyt-react";
+const db = process.env.MONGODB_URI || "mongodb://localhost/nyt-react", { useNewUrlParser: true };
 mongoose.connect(db, function(error) {
   // Log any errors connecting with mongoose
   if (error) {
@@ -55,8 +55,12 @@ mongoose.connect(db, function(error) {
     console.log("mongoose connection is successful");
   }
 });
-
-// Start the server
+// Send every request to the React app
+// Define any API routes before this runs
+app.get("*", function(req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
+ //Start the server
 app.listen(PORT, function() {
   console.log(`🌎 ==> Server now on port ${PORT}!`);
 });
