@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.3f429c30.chunk.css",
-    "main.js": "/static/js/main.834aa84f.chunk.js",
-    "main.js.map": "/static/js/main.834aa84f.chunk.js.map",
+    "main.js": "/static/js/main.68f85e55.chunk.js",
+    "main.js.map": "/static/js/main.68f85e55.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.2810801c.chunk.js": "/static/js/2.2810801c.chunk.js",
     "static/js/2.2810801c.chunk.js.map": "/static/js/2.2810801c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cce1ddcfa8264cd4d6ea3afa53a85dc9.js": "/precache-manifest.cce1ddcfa8264cd4d6ea3afa53a85dc9.js",
+    "precache-manifest.daebd9438113eb119a052c4669fc9403.js": "/precache-manifest.daebd9438113eb119a052c4669fc9403.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.3f429c30.chunk.css.map": "/static/css/main.3f429c30.chunk.css.map",
     "static/media/newspaperImageCropped.jpg": "/static/media/newspaperImageCropped.bd1c89e9.jpg"
