@@ -5,7 +5,6 @@
   "repository": "git@github.com:robinb242/reactBase.git",
   "author": "robinb242 <robin.bertuccelli@gmail.com>",
   "license": "MIT",
-  "homepage": "https://robinb242.github.io/nyt-react-search/",
   "engines": {"node": "15.x"},
 
   "scripts": {
