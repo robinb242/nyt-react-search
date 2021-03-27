@@ -1,11 +1,13 @@
 {
-  "name": "reactBase",
+  "name": "nyt-react-search",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:robinb242/reactBase.git",
   "author": "robinb242 <robin.bertuccelli@gmail.com>",
   "license": "MIT",
   "homepage": "https://robinb242.github.io/nyt-react-search/",
+  "engines": {"node": "15.x"},
+
   "scripts": {
     "server": "node server.js",
     "client": "node scripts/start-client.js",
@@ -15,6 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "installDeps": "yarn && cd client && yarn"
   },
+  
   "dependencies": {
     "axios": "^0.19.0",
     "bluebird": "^3.5.5",
@@ -34,4 +37,5 @@
     "concurrently": "^4.1.1",
     "nodemon": "^1.19.1"
   }
+  
 }
