@@ -5,8 +5,9 @@
   "repository": "git@github.com:robinb242/reactBase.git",
   "author": "robinb242 <robin.bertuccelli@gmail.com>",
   "license": "MIT",
-  "engines": {"node": "15.x"},
-
+  "engines": {
+    "node": "15.x"
+  },
   "scripts": {
     "server": "node server.js",
     "client": "node scripts/start-client.js",
@@ -16,11 +17,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "installDeps": "yarn && cd client && yarn"
   },
-  
   "dependencies": {
     "axios": "^0.19.0",
     "bluebird": "^3.5.5",
-    "body-parser": "^1.19.0",
     "create-react-app": "^3.0.1",
     "express": "^4.17.1",
     "mongodb": "^3.3.2",
@@ -36,5 +35,4 @@
     "concurrently": "^4.1.1",
     "nodemon": "^1.19.1"
   }
-  
 }
