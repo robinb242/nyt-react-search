@@ -6,7 +6,7 @@
   "author": "robinb242 <robin.bertuccelli@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": "14.x || 15.x"
+    "node": "14.x"
   },
   "scripts": {
     "server": "node server.js",
